@@ -15,6 +15,7 @@
 		E2DE90A42C14C97000AA7483 /* Only_PortraitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE90A32C14C97000AA7483 /* Only_PortraitTests.swift */; };
 		E2DE90AE2C14C97000AA7483 /* Only_PortraitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE90AD2C14C97000AA7483 /* Only_PortraitUITests.swift */; };
 		E2DE90B02C14C97000AA7483 /* Only_PortraitUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE90AF2C14C97000AA7483 /* Only_PortraitUITestsLaunchTests.swift */; };
+		E2DE90BD2C14C99A00AA7483 /* OrientationLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2DE90BC2C14C99A00AA7483 /* OrientationLock.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		E2DE90A92C14C97000AA7483 /* Only PortraitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Only PortraitUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2DE90AD2C14C97000AA7483 /* Only_PortraitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Only_PortraitUITests.swift; sourceTree = "<group>"; };
 		E2DE90AF2C14C97000AA7483 /* Only_PortraitUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Only_PortraitUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E2DE90BC2C14C99A00AA7483 /* OrientationLock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrientationLock.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				E2DE90952C14C97000AA7483 /* Assets.xcassets */,
 				E2DE90972C14C97000AA7483 /* Only_Portrait.entitlements */,
 				E2DE90982C14C97000AA7483 /* Preview Content */,
+				E2DE90BC2C14C99A00AA7483 /* OrientationLock.swift */,
 			);
 			path = "Only Portrait";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2DE90922C14C96F00AA7483 /* ContentView.swift in Sources */,
+				E2DE90BD2C14C99A00AA7483 /* OrientationLock.swift in Sources */,
 				E2DE90942C14C96F00AA7483 /* Item.swift in Sources */,
 				E2DE90902C14C96F00AA7483 /* Only_PortraitApp.swift in Sources */,
 			);

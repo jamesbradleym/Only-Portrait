@@ -8,21 +8,25 @@
 import SwiftUI
 
 class PortraitHostingController<Content>: UIHostingController<Content> where Content: View {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        view.backgroundColor = UIColor.green // Set background color to red
+    }
+
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         return .portrait
     }
-    
+
     override var shouldAutorotate: Bool {
         return false
     }
-    
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
 
+    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+        // Do Nothing
     }
-    
+
     @objc func orientationDidChange(_ notification: Notification) {
-        // Handle the orientation change
-        // Useful for more specific reactions to orientation changes
+        // Do Nothing
     }
 }
 
@@ -53,6 +57,6 @@ struct OrientationHostingView<Content: View>: UIViewControllerRepresentable {
 
 extension View {
     func lockOrientation(_ orientation: UIInterfaceOrientationMask) -> some View {
-        self.modifier(LockOrientationModifier(orientation: orientation))
+        modifier(LockOrientationModifier(orientation: orientation))
     }
 }
